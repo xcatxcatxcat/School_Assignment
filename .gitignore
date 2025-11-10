@@ -1,0 +1,40 @@
+# 这是一个为Visual Studio C++项目准备的.gitignore文件
+
+## 用户相关的VS设置，不应共享
+*.vs/
+*.VC.db
+*.suo
+*.user
+*.vcxproj.user
+
+## 编译输出目录
+## 通常是 Debug/ 或 Release/，也可能是 x64/ 或 Win32/
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+build/
+bin/
+obj/
+
+## 编译生成的文件
+*.ilk
+*.pdb
+*.tlog
+*.idb
+*.obj
+*.pch
+*.exe
+*.dll
+*.lib
+*.sbr
+*.recipe
+*.tli
+*.tlh
+*.log
+*.lastbuildstate
+
+## 其他临时文件
+*.cache
+*.sdf
+ipch/
